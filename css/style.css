@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rubik:wght@300&display=swap');
 
+
 html,body {
   margin:0;
   padding:0;
@@ -509,9 +510,11 @@ li {
   color: white;
 }
 
-@media (min-width: 500px) {
+@media only screen and (min-width: 600px) {
   .header-resume p{
-    font-size: 40px;
+    font-size: 20px;
   }
-  
+  li {
+    font-size: 20px;
+  }
 }
