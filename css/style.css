@@ -508,3 +508,10 @@ li {
   text-decoration: none;
   color: white;
 }
+
+@media (min-width: 500px) {
+  .header-resume p{
+    font-size: 40px;
+  }
+  
+}
