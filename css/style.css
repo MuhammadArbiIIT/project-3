@@ -510,11 +510,20 @@ li {
   color: white;
 }
 
-@media only screen and (min-width: 600px) {
+@media (max-width: 600px) {
   .header-resume p{
-    font-size: 20px;
+    font-size: 25px;
   }
   li {
     font-size: 20px;
+  }
+  .computerskills{
+    padding-top: 50px;
+  }
+  .activitiesandclubs{
+    padding-top: 100px;
+  }
+  .references {
+    padding-top: 100px;
   }
 }
