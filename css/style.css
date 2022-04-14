@@ -1,0 +1,510 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rubik:wght@300&display=swap');
+
+html,body {
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
+
+body {
+  background: linear-gradient(to top right, #000099 0%, #00ffcc 100%);
+}
+
+body img {
+  width: 100%;
+  height:auto;
+}
+
+.header-resume header, p {
+  text-align: center;
+  padding-left: 0px;
+}
+
+.header-resume p {
+  font-family: Rubik, "Times New Roman";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+header {
+  font-family: Rubik, "Times New Roman";
+  font-size: 30px;
+  text-align: left;
+  text-decoration: underline;
+  padding-left: 50px;
+}
+
+li {
+  font-family: Rubik, "Times New Roman";
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 200px;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+/*navbar*/
+.navbar-container {
+  width: 100%;
+  position: relative;
+}
+
+.navbar-container ul {
+  list-style: none;
+  background: white;
+  padding: 0px;
+  margin: 20px;
+  opacity: 90%;
+  text-align: center;
+  padding-top: 10px;
+}   
+
+.navbar-container li{
+  display: inline-block;
+}
+
+.navbar-container ul li a {
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: #696969;
+  }
+
+.navbar-container a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbar-container a:hover{
+  background: #4ddbff;
+}
+
+/*Homepage*/
+.homepage-header-container header {
+    font-family: Rubik, "Times New Roman";
+    font-size: 1.875em;
+    text-align: left;
+    text-decoration: underline;
+    padding-left: 3.125em;
+    text-align: center;
+}
+.homepage-header-container p {
+    font-family: Rubik, "Times New Roman";
+    font-size: 1.875em;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 3.125em;
+    text-align: center;
+}
+
+/*resume webpage*/
+.education li:before {
+  content: "\2724";
+  color: #F0FFFF;
+  margin-right: 20px;
+}
+
+.Experience li:before {
+  content: "\2724";
+  color: #F0FFFF;
+  margin-right: 20px;
+}
+
+.baby-sitting img {
+  text-align: center;
+  width: 20%;   
+  border: 4px solid black;
+}
+
+.babysitting-img-container {
+  position: relative; 
+  left: 1000px;
+  bottom: 200px;
+}
+
+.baby-sitting li:before {
+  content: "\2724";
+  color: #F0FFFF;
+  margin-right: 20px;
+}
+
+.computerskills {
+  margin-top: -150px;
+}
+
+.computer img {
+  text-align: center; 
+  width: 20%;
+  border: 4px solid black;
+}
+
+.computer-img-container {
+  position: relative;
+  left: 1000px;
+  bottom: 160px;
+}
+
+.computer li:before {
+  content: "\2724";
+  color: #F0FFFF;
+  margin-right: 20px;
+}
+
+
+.activitiesandclubs {
+  margin-top: -200px;
+}
+
+.activities li:before {
+  content: "\2724";
+  color: #F0FFFF;
+  margin-right: 20px;
+}
+
+.volunteer li:before {
+  content: "\2724";
+  color: #F0FFFF;
+  margin-right: 20px;
+}
+
+.awards img {
+  text-align: center; 
+  width: 10%;
+  border: 4px solid black;
+}
+
+.award-img-container {
+  position: relative; 
+  left: 800px;
+  bottom: 200px;
+}
+
+.awards li:before {
+  content: "\2724";
+  color: #F0FFFF;
+  margin-right: 20px;
+}
+
+.references p {
+  font-family: Rubik, "Times New Roman";
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.references header {
+  margin-top: -150px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+/*pakistan webpage*/
+.pakistan-welcome {
+  text-align: center;
+}
+
+.karachi {
+  padding-left: 100px;
+}
+
+.largestcity {
+  padding-top: 100px;
+  text-decoration: none;
+  margin-left: -50px;
+}
+
+.karachi img {
+  width: 40%;
+  border: 4px solid white;
+}
+
+.karachi-container {
+  position: relative; 
+  left: 400px;
+  bottom: 200px;
+}
+
+.karachi p {
+  margin-left: -30px;
+}
+
+.karachi p:before {
+  content: "\2724";
+  color: #F0FFFF;
+  margin-right: 20px;
+}
+
+.karachi-text {
+  position: relative;
+  top: 100px;
+  width: 300px;
+  padding-top: 30px;
+  padding-left: 37.35px;
+  border: 4px solid white;
+  overflow-wrap: break-word;
+}
+
+.languages-pakistan {
+  padding-left: 100px;
+}
+
+.languages {
+  text-decoration: none;
+  margin-top: -100px;
+  margin-left: -50px;
+}
+
+.languages-pakistan p {
+  margin-left: -30px;
+}
+
+.languages-pakistan p:before {
+  content: "\2724";
+  color: #F0FFFF;
+  margin-right: 20px;
+}
+
+.language-container {
+  position: relative;
+  top: 150px;
+  width: 300px;
+  padding-top: 30px;
+  padding-left: 37.35px;
+  border: 4px solid white;
+  overflow-wrap: break-word;
+}
+
+.languages-pakistan img {
+  width: 40%;
+  border: 4px solid white;
+}
+
+.language-img-container {
+  position: relative; 
+  left: 400px;
+  bottom: 200px;
+}
+
+.cricket {
+  padding: 100px;
+}
+
+.cricket-header {
+  text-decoration: none;
+  margin-top: -100px;
+  margin-left: -50px;
+}
+
+.cricket p {
+  margin-left: -30px;
+}
+
+.cricket p:before {
+  content: "\2724";
+  color: #F0FFFF;
+  margin-right: 20px;
+}
+
+.cricket-text-container {
+  position: relative;
+  top: 150px;
+  width: 300px;
+  padding-top: 30px;
+  padding-left: 37.35px;
+  border: 4px solid white;
+  overflow-wrap: break-word;
+}
+
+.cricket img {
+  width: 40%;
+  border: 4px solid white;
+}
+
+.cricket-img-container {
+  position: relative; 
+  left: 400px;
+  bottom: 200px;
+}
+
+.rupee {
+  padding-left: 100px;
+}
+
+.rupee-header {
+  text-decoration: none;
+  margin-top: -100px;
+  margin-left: -50px;
+}
+
+.rupee p {
+  margin-left: -30px;
+}
+
+.rupee p:before {
+  content: "\2724";
+  color: #F0FFFF;
+  margin-right: 20px;
+}
+
+.ruppe-text-container{
+  position: relative;
+  top: 100px;
+  width: 300px;
+  padding-top: 30px;
+  padding-left: 37.35px;
+  border: 4px solid white;
+  overflow-wrap: break-word;
+}
+
+.rupee img {
+  width: 40%;
+  border: 4px solid white;
+}
+
+.rupee-img-container {
+  position: relative;
+  left: 400px;
+  bottom: 200px;
+}
+
+/*virtual machines webpage*/
+.os-welcome {
+  text-align: center;
+}
+
+.os-header  {
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+.os p:before {
+  content: "\2724";
+  color: #F0FFFF;
+  margin-right: 20px;
+}
+
+.os-img-container {
+  position: relative; 
+  bottom: 250px;
+  left: 150px;
+}
+
+.os-text-container {
+  position: relative;
+  left: 1000px;
+  top: 200px;
+  width: 360px;
+  height: 250px;
+  border: 4px solid white; 
+  overflow-wrap: break-word;
+}
+
+.os img {
+  width: 40%;
+  border: 4px solid black;
+}
+
+.origin-continued {
+  text-decoration: none;
+  margin-top: -100px;
+}
+
+.vm p:before {
+  content: "\2724";
+  color: #F0FFFF;
+  margin-right: 20px;
+}
+
+.vm-img-container {
+  position: relative; 
+  bottom: 250px;
+  left: 150px;
+}
+
+.vm-text-container {
+  position: relative;
+  left: 1000px;
+  top: 100px;
+  width: 360px;
+  height: 250px;
+  border: 4px solid white;
+  overflow-wrap: break-word;
+}
+
+.vm img {
+  width: 40%;
+  border: 4px solid black;
+}
+
+.usecase-header{
+  text-decoration: none;
+  margin-top: -100px;
+}
+
+.usecase p:before {
+  content: "\2724";
+  color: #F0FFFF;
+  margin-right: 20px;
+}
+
+.usecase-img-container {
+  position: relative;
+  bottom: 250px;
+  left: 150px;
+}
+
+.usecase-text-container {
+  position: relative;
+  left: 1000px;
+  top: 150px;
+  width: 370px;
+  height: 250px;
+  border: 4px solid white; 
+  overflow-wrap: break-word;
+}
+
+.usecase img {
+  width: 40%;
+  border: 4px solid black;
+}
+
+
+.yt-header{
+  margin-top: -100px;
+  text-align: center;
+  color: white;
+}
+
+.yt p {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.yt-vid {
+  position: relative;
+  left: 650px;
+}
+
+.footer {
+  font-size: 20px;
+  position: relative; 
+  left: 820px;
+  color: white;
+  bottom: 50px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
