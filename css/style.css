@@ -551,4 +551,8 @@ li {
   .header-resume a{
     color: green;
   }
+  .header-resume h1{
+    font-style: italic;
+    color: white;
+  }
 }
