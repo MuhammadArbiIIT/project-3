@@ -78,7 +78,7 @@ function initMap() {
         slides[index].classList.add("active");     
 
         }
-
+    }
 
 
 
