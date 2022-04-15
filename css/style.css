@@ -587,3 +587,18 @@ li {
   padding-bottom: 50px;
   font-weight: bold;
 }
+
+.google-footer {
+  font-size: 20px;
+  position: relative; 
+  left:1500px;
+  bottom: 150px;
+  color: white;
+  bottom: 50px;
+}
+
+.google-footer a {
+  text-decoration: none;
+  color: white;
+}
+
