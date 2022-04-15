@@ -4,18 +4,30 @@ function initMap() {
     zoom: 10,
     mapId: '684f0b988910820c'
     });
-      
-    const marker = new google.maps.Marker({
-      position: {lat:  42.01376708919888, lng: -87.68298102057864},
-      map,
-      title: "home",
-      });
     
-      const infowindow = new google.maps.InfoWindow({
-        content: "This is where I live",
-      });
+    const markers = [  
+      [
+        "home",
+        42.012915866034945,
+        -87.68261543069347
+      ]  
+];
+    for (let i = 0; i<markers.length; i++) {
+        const currMarker = markers[i];
 
-      marker.addListener("click", () => {
-        infowindow.open(map, marker);
-        });
+        const marker = new google.maps.Marker({
+            position: {lat: currMarker[1], lng: currMarker[2]},
+            map,
+            title: currMarker[0],
+            });
+            
+            const infowindow = new google.maps.InfoWindow({
+                content: currMarker[0],
+            });
+        
+            marker.addListener("click", () => {
+                infowindow.open(map, marker);
+            }); 
+    }
+
 }
