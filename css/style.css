@@ -548,5 +548,7 @@ li {
   .header-resume p{
     color: purple;
   }
-  
+  .header-resume a{
+    color: green;
+  }
 }
