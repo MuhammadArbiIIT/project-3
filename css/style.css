@@ -555,4 +555,8 @@ li {
     font-style: italic;
     color: white;
   }
+  .references p {
+    text-decoration: underline dotted; 
+    text-decoration-color: yellow;
+  }
 }
