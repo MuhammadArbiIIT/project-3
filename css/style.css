@@ -564,3 +564,8 @@ li {
     color: red;
   }
 }
+
+#map {
+  height: 400px;
+  width: 100%;
+}
