@@ -10,7 +10,17 @@ function initMap() {
         "home",
         42.012915866034945,
         -87.68261543069347
-      ]  
+      ],  
+      [
+        "school", 
+        41.835012030589525,
+        -87.62708876535238
+      ],  
+      [
+        "favorite restraunt",
+        42.00677597210306, 
+        -87.66064518232024      
+    ]  
 ];
     for (let i = 0; i<markers.length; i++) {
         const currMarker = markers[i];
