@@ -5,7 +5,6 @@
   <title>Project 3</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/reset.css">
-  <script src="js/script.js"></script>
 </head>
 <body>
   <nav class="navbar-container">
@@ -27,36 +26,17 @@
       <p>Thank you for taking the time to view my webpage, hope you enjoy!</p>
     </div>
   </section>
-  <div class="slider">
-    <div class="slider-items">
-        <div  class="item active">
-           <img src="./resources/tech.jpg"" />
-           <div class="caption">
-              Tech
-           </div>
-        </div>
-        <div  class="item">
-           <img src="./resources/pakistanflag.jpg" />
-           <div class="caption">
-              Pakistan
-           </div>
-        </div>
-        <div  class="item">
-           <img src="./resources/game.jpg" />
-           <div class="caption">
-              Game
-           </div>
-        </div>
-        <div  class="item">
-          <img src="./resources/iit_banner.jpg" />
-          <div class="caption">
-             IIT
-          </div>
-       </div>
+  <section class="slider-container">
+    <div class="slider"></div>
+      <div class="img-box">
+          <img src="resources/tech.jpg" alt="tech" class="slider-img" />
+      </div>
 
-    </div>
-        <div class="left-slide"><</div>
-        <div class="right-slide">></div>
+      <button class="btn" onclick="prev()">Prev</button>
+      <button class="btn" onclick="next()">Next</button>
+
+      <script src="js/sldier.js"></script>
+  </section>
  </div>
 </body>
 </html>
