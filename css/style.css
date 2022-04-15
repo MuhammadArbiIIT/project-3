@@ -526,4 +526,20 @@ li {
   .references {
     padding-top: 100px;
   }
+  .navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } 
+  .navbar-container ul{
+    width: 100%;
+    display: flex;
+  }
+  .navbar-container li a{
+    font-size: 10px;
+    display: block;
+  }
+  .navbar-container li{
+    padding-left: 25px;
+  }
 }
