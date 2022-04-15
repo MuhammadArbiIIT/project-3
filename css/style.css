@@ -559,4 +559,8 @@ li {
     text-decoration: underline dotted; 
     text-decoration-color: yellow;
   }
+  .references h3 {
+    font-style: italic;
+    color: red;
+  }
 }
