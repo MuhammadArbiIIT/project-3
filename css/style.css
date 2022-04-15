@@ -568,4 +568,22 @@ li {
 #map {
   height: 500px;
   width: 60%;
+  padding-bottom: 50px;
+}
+
+.google-maps h1 {
+  font-family: Rubik, "Times New Roman";
+  font-size: 100px;
+  text-align: left;
+  padding-left: 50px;
+  margin-bottom: -10px;
+}
+
+.google-maps p {
+  font-family: Rubik, "Times New Roman";
+  font-size: 20px;
+  text-align: left;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  font-weight: bold;
 }
