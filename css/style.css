@@ -543,3 +543,10 @@ li {
     padding-left: 25px;
   }
 }
+
+@media (orientation: portrait) {
+  .header-resume p{
+    color: purple;
+  }
+  
+}
